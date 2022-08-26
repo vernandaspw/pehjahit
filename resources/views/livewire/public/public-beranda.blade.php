@@ -486,14 +486,14 @@
 
                 <!-- Right Column -->
                 <div
-                    class="right-column d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
+                    class="right-column d-flex flex-column align-items-lg-start align-items-center text-justify">
                     <h2 class="mb-3"><b>Get To About Us</b></h2>
                     {{-- <h4
                         class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
 
                         Trusted Mentor
                     </h4> --}}
-                    <p class="text-caption">
+                    <p class="text-caption text-justify">
                         PehJahit.com merupakan platform digital yang tidak hanya fokus dalam memasarkan produk dan jasa
                         dari para UMKM tetapi juga sebagai platform yang memberikan pelatihan digital marketing kepada
                         para UMKM lokal agar mereka dapat bersaing dalam era digital saat ini. Kami memiliki visi untuk
