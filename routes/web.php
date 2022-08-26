@@ -1,5 +1,6 @@
 <?php
 
+use App\Helpers\ApiWatsap;
 use App\Http\Livewire\Public\PublicBeranda;
 use Illuminate\Support\Facades\Route;
 
@@ -14,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('send', function () {
+//     return ApiWatsap::send('089660741134', 'test woi');
+// });
 
 Route::get('/', PublicBeranda::class);
