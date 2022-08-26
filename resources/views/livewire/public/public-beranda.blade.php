@@ -2,7 +2,8 @@
 
     <livewire:public.component.public-navbar />
 
-    <section class="container pt-3 pb-5">
+    {{-- Hero --}}
+    <section class="container pt-3 mt-5 mt-md-0 pb-5">
         <style scoped>
             /* @media screen and (min-width: 768px) {
                 body .pl-house {
@@ -241,7 +242,7 @@
         <img src="{{ asset('images/Torus_3x_Knot_R.png') }}" width="750px" alt="bg-header"
             class="img-header d-none d-md-block">
         <div class="row mx-0" id="header">
-            <div class="col-xl-6">
+            <div class="col-xl-6 ">
                 <div class="title">
                     <h1>
                         PehJahit.com
@@ -338,6 +339,7 @@
         </div>
     </section>
 
+    {{-- count akun --}}
     <section class="famouly-brands">
         <style scoped>
             body .famouly-brands {
