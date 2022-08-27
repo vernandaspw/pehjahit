@@ -1084,9 +1084,11 @@
 
     <section>
         <div class="d-md-flex align-items-center">
-            <div class="col-md-4  d-flex align-items-center justify-content-center py-5" style="{{ env('BG_COLOR_200') }}">
+            <div class="col-md-4  d-flex align-items-center justify-content-center py-5"
+                style="{{ env('BG_COLOR_200') }}">
                 <div class="p-4 text-center">
-                    <img src="{{ asset('http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-3.png') }}" width="65" height="65" alt="">
+                    <img src="{{ asset('http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-3.png') }}"
+                        width="65" height="65" alt="">
                     <div class="text-white mt-3">
                         Make money instantly
                     </div>
@@ -1095,13 +1097,16 @@
                             Start Selling
                         </strong>
                     </h4>
-                    <a href="#" class="btn rounded-pill  mt-2" style="{{ env('BG_COLOR_100') }}">Open your shop</a>
+                    <a href="#" class="btn rounded-pill  mt-2" style="{{ env('BG_COLOR_100') }}">Open your
+                        shop</a>
                 </div>
             </div>
 
-            <div class="col-md-4  d-flex align-items-center justify-content-center py-5" style="{{ env('BG_COLOR_300') }}">
+            <div class="col-md-4  d-flex align-items-center justify-content-center py-5"
+                style="{{ env('BG_COLOR_300') }}">
                 <div class="p-4 text-center">
-                    <img src="{{ asset('http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-3.png') }}" width="65" height="65" alt="">
+                    <img src="{{ asset('http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-3.png') }}"
+                        width="65" height="65" alt="">
                     <div class="text-white mt-3">
                         Find anything you want
                     </div>
@@ -1110,23 +1115,274 @@
                             Start Buying
                         </strong>
                     </h4>
-                    <a href="#" class="btn rounded-pill  mt-2" style="{{ env('BG_COLOR_100') }}">Go to Marketpleace</a>
+                    <a href="#" class="btn rounded-pill  mt-2" style="{{ env('BG_COLOR_100') }}">Go to
+                        Marketpleace</a>
                 </div>
             </div>
 
-            <div class="col-md-4  d-flex align-items-center justify-content-center py-5" style="{{ env('BG_COLOR_400') }}">
+            <div class="col-md-4 d-flex align-items-center justify-content-center py-5"
+                style="{{ env('BG_COLOR_400') }}">
                 <div class="p-4 text-center">
-                    <img src="{{ asset('http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-3.png') }}" width="65" height="65" alt="">
+                    <img src="{{ asset('http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-3.png') }}"
+                        width="65" height="65" alt="">
                     <div class="text-white mt-3">
-                        find the class and training you want
+                        Find the class/training
                     </div>
                     <h4 class="text-white">
                         <strong>
                             Start study/training
                         </strong>
                     </h4>
-                    <a href="#" class="btn rounded-pill  mt-2" style="{{ env('BG_COLOR_100') }}">Go to Talent</a>
+                    <a href="#" class="btn rounded-pill  mt-2" style="{{ env('BG_COLOR_100') }}">Go to
+                        Talent</a>
                 </div>
             </div>
     </section>
+
+
+
+
+    <section class="contact-us-light-lick position-relative" style="{{ env('BG_COLOR_100') }}">
+        <style scoped>
+            * {
+                font-family: 'Inter', sans-serif !important;
+            }
+
+            body .font-red-hat-display {
+                font-family: 'Red Hat Display', sans-serif !important;
+            }
+
+            body .cl-light-blue {
+                color: #34b3ff;
+            }
+
+            body .contact-us-light-lick {
+                background: #FFFFFF;
+                padding-top: 75px;
+                padding-bottom: 75px;
+            }
+
+            body .contact-us-light-lick .headline {
+                font-family: 'Red Hat Display', sans-serif;
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 140%;
+                text-align: center;
+                color: #16171C;
+            }
+
+            @media screen and (max-width: 768px) {
+                body .contact-us-light-lick .headline {
+                    font-size: 40px;
+                    line-height: 60px !important;
+                }
+            }
+
+            body .contact-us-light-lick .button {
+                margin-top: 72px;
+            }
+
+            body .contact-us-light-lick .btn-contact {
+                padding: 16px 32px;
+                background: {{ env('COLOR_400') }};
+                border-radius: 12px;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+
+            @media screen and (max-width: 768px) {
+                body .contact-us-light-lick .btn-contact {
+                    width: 100%;
+                }
+            }
+
+            body .contact-us-light-lick .btn-demo {
+                padding: 16px 32px;
+                border-radius: 12px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #16171C;
+                border: 1px solid #8D8F98;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            @media screen and (max-width: 768px) {
+                body .contact-us-light-lick .btn-demo {
+                    width: 100%;
+                }
+            }
+        </style>
+        <div class="container">
+            <div class="row d-block mx-0">
+                <div class="headline font-red-hat-display" style="font-size: 40px">
+                    Looking for talented people?
+                    <div class="text-muted">to start your business</div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-4 mt-5">
+                <button class="btn btn-contact rounded-pill">
+                    Looking for a job
+                </button>
+                <button class="btn btn-demo btn-white border-0 rounded-pill">
+                    Post an job
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    {{-- partner --}}
+    <div class="text-center py-4 mt-1 mb-2 align-items-center">
+        <b style="font-size: 35px">Our Partner</b>
+        <br>
+
+        <div class="mt-3 d-flex justify-content-center">
+            <div class="col-9 d-flex flex-wrap justify-content-center">
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/partner/disnaker.png') }}" class="p-3 bg-white shadow-sm"
+                        height="80px" alt="">
+                </a>
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/partner/hipmi.png') }}" class="p-3 bg-white shadow-sm" height="80px"
+                        alt="">
+                </a>
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/partner/kemenparekraf.png') }}" class="p-3 bg-white shadow-sm"
+                        height="80px" alt="">
+                </a>
+
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/partner/litbang.jpeg') }}" class="p-3 bg-white shadow-sm"
+                        height="80px" alt="">
+                </a>
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/partner/kemenprid.png') }}" class="p-3 bg-white shadow-sm"
+                        height="80px" alt="">
+                </a>
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/partner/LOGO_HIPMIKINDO-500x492.jpg') }}"
+                        class="p-3 bg-white shadow-sm" height="80px" alt="">
+                </a>
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/partner/psbd.jpg') }}" class="p-3 bg-white shadow-sm" height="80px"
+                        alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {{-- partner --}}
+    <div class="text-center py-4 mt-1 mb-2 align-items-center">
+        <b style="font-size: 35px">Support by</b>
+        <br>
+        <div class="mt-3 d-flex justify-content-center">
+            <div class="col-9 d-flex flex-wrap justify-content-center">
+                <a href="#" class="my-2 mx-2 rounded">
+                    <img src="{{ asset('images/supportby/hostinger.png') }}" class="p-3 bg-white shadow-sm"
+                        height="80px" alt="">
+                    <img src="{{ asset('images/supportby/idCloudHost-Logo-horizontal-01.png') }}"
+                        class="p-3 bg-white shadow-sm" height="80px" alt="">
+                    <img src="{{ asset('images/supportby/watsap.png') }}" class="p-3 bg-white shadow-sm"
+                        height="80px" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- Achievements --}}
+    <div class="text-center py-4 mt-1 mb-2 align-items-center container">
+        <b style="font-size: 35px">Achievements</b>
+        <br>
+        <div class="mt-3 d-flex justify-content-center">
+            <div class="col-12 d-flex flex-wrap justify-content-center">
+                <a href="#" class="my-2 card mx-2" style="border-radius: 18px; height: 330px; width: 200px">
+                    <div class="card-body">
+                        <img src="{{ asset('images/Achievements/37969_1661325384271-Logo_Palembang.png') }}"
+                            class="p-1 bg-white shadow-sm w-100" height="130px" alt="">
+                        <div class="mt-3">
+                            <b class="text-dark" style="font-size: 20px">
+                                The Winner
+                            </b>
+                            <div class="text-muted">Of Palembang City Government Bootcamp Startup Competition</div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    {{-- blog --}}
+<hr>
+<div class="container mt-4">
+    <center><b style="font-size: 35px">Blog</b>
+    <div class="text-muted">Articles you may want to see</div>
+</center>
+    <br>
+    @php
+        $blogs = [];
+    @endphp
+    @forelse ($blogs as $data)
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
+                    alt="Skyscrapers" />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+                    alt="Los Angeles Skyscrapers" />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+                    alt="Palm Springs Road" />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show
+                        that equal height action.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    @empty
+    Belum ada posting blog
+    @endforelse
+</div>
+
+
+    {{-- footer --}}
+    <livewire:public.component.public-footer />
 </div>
