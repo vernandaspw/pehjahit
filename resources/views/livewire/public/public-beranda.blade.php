@@ -767,7 +767,8 @@
                                     </div>
                                     <div class="caption">Marketplace</div>
                                     <span class="sub-caption">
-                                        Belajar tanpa batasan waktu
+                                        Cari produk dan dapatkan produk kualitas terbarik
+
                                     </span>
                                 </div>
                             </a>
@@ -783,7 +784,7 @@
                                     </div>
                                     <div class="caption">Kelas Online</div>
                                     <span class="sub-caption">
-                                        Cari produk dan dapatkan produk kualitas terbarik
+                                        Belajar tanpa batasan waktu
                                     </span>
                                 </div>
                             </a>
