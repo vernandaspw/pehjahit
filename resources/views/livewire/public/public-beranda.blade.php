@@ -1285,12 +1285,16 @@
                 <a href="#" class="my-2 mx-2 rounded">
                     <img src="{{ asset('images/supportby/hostinger.png') }}" class="p-3 bg-white shadow-sm"
                         height="80px" alt="">
+                </a>
+                <a href="#" class="my-2 mx-2 rounded">
                     <img src="{{ asset('images/supportby/idCloudHost-Logo-horizontal-01.png') }}"
                         class="p-3 bg-white shadow-sm" height="80px" alt="">
+                </a>
+                <a href="#" class="my-2 mx-2 rounded">
                     <img src="{{ asset('images/supportby/watsap.png') }}" class="p-3 bg-white shadow-sm"
                         height="80px" alt="">
-                </a>
             </div>
+            </a>
         </div>
     </div>
 
@@ -1319,69 +1323,69 @@
     </div>
 
     {{-- blog --}}
-<hr>
-<div class="container mt-4">
-    <center><b style="font-size: 35px">Blog</b>
-    <div class="text-muted">Articles you may want to see</div>
-</center>
-    <br>
-    @php
-        $blogs = [];
-    @endphp
-    @forelse ($blogs as $data)
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
-        <div class="col">
-            <div class="card h-100">
-                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
-                    alt="Skyscrapers" />
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
-                    </p>
+    <hr>
+    <div class="container mt-4">
+        <center><b style="font-size: 35px">Blog</b>
+            <div class="text-muted">Articles you may want to see</div>
+        </center>
+        <br>
+        @php
+            $blogs = [];
+        @endphp
+        @forelse ($blogs as $data)
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
+                            alt="Skyscrapers" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+                            alt="Los Angeles Skyscrapers" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+                            alt="Palm Springs Road" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show
+                                that equal height action.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
-                    alt="Los Angeles Skyscrapers" />
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
-                    alt="Palm Springs Road" />
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show
-                        that equal height action.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-        </div>
+        @empty
+            Belum ada posting blog
+        @endforelse
     </div>
-    @empty
-    Belum ada posting blog
-    @endforelse
-</div>
 
 
     {{-- footer --}}
