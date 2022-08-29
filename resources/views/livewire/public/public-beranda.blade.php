@@ -487,7 +487,7 @@
                 <!-- Left Column -->
                 <div class="img-hero text-center justify-content-center d-flex">
                     <img id="hero" class="img-fluid" width="200" height="200"
-                        src="{{ asset('images/logo-bg-none.png') }}" alt="" />
+                        src="{{ asset('images/logo-app.png') }}" alt="" />
                 </div>
 
                 <!-- Right Column -->
@@ -622,7 +622,7 @@
                     <!-- Right Column -->
                     <div class="img-hero mt-2 d-none d-md-block text-center justify-content-center d-flex">
                         <img id="hero" style="border-radius: 20px" class="shadow" width="500" height="400"
-                            src="{{ asset('images/marissa-grootes-flRm0z3MEoA-unsplash.jpg') }}" alt="" />
+                            src="{{ asset('images/marissa-unsplash.jpg') }}" alt="" />
                     </div>
                 </div>
             </div>
