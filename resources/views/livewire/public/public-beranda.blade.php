@@ -762,7 +762,7 @@
                                 class="card-hotel-carousel hover-overlay hover-zoom hover-shadow ripple shadow-sm">
                                 <div class="d-flex text-center justify-content-center align-items-center">
                                     <img class="" width="120" height="120"
-                                        src="{{ asset('images/logo-bg-none.png') }}" alt="images" />
+                                        src="{{ asset('images/logo-app.png') }}" alt="images" />
                                 </div>
                                 <div class="card-details">
                                     <div class="mt-4 sub-caption" style="">
@@ -779,7 +779,7 @@
                                 class="card-hotel-carousel hover-overlay hover-zoom hover-shadow ripple shadow-sm">
                                 <div class="d-flex text-center justify-content-center align-items-center">
                                     <img class="" width="120" height="120"
-                                        src="{{ asset('images/logo-bg-none.png') }}" alt="images" />
+                                        src="{{ asset('images/logo-app.png') }}" alt="images" />
                                 </div>
                                 <div class="card-details">
                                     <div class="mt-4 sub-caption" style="">
@@ -795,7 +795,7 @@
                                 class="card-hotel-carousel hover-overlay hover-zoom hover-shadow ripple shadow-sm">
                                 <div class="d-flex text-center justify-content-center align-items-center">
                                     <img class="" width="120" height="120"
-                                        src="{{ asset('images/logo-bg-none.png') }}" alt="images" />
+                                        src="{{ asset('images/logo-app.png') }}" alt="images" />
                                 </div>
                                 <div class="card-details">
                                     <div class="mt-4 sub-caption" style="">
@@ -811,7 +811,7 @@
                                 class="card-hotel-carousel hover-overlay hover-zoom hover-shadow ripple shadow-sm">
                                 <div class="d-flex text-center justify-content-center align-items-center">
                                     <img class="" width="120" height="120"
-                                        src="{{ asset('images/logo-bg-none.png') }}" alt="images" />
+                                        src="{{ asset('images/logo-app.png') }}" alt="images" />
                                 </div>
                                 <div class="card-details">
                                     <div class="mt-4 sub-caption" style="">
@@ -827,7 +827,7 @@
                                 class="card-hotel-carousel hover-overlay hover-zoom hover-shadow ripple shadow-sm">
                                 <div class="d-flex text-center justify-content-center align-items-center">
                                     <img class="" width="120" height="120"
-                                        src="{{ asset('images/logo-bg-none.png') }}" alt="images" />
+                                        src="{{ asset('images/logo-app.png') }}" alt="images" />
                                 </div>
                                 <div class="card-details">
                                     <div class="mt-4 sub-caption" style="">
@@ -843,7 +843,7 @@
                                 class="card-hotel-carousel hover-overlay hover-zoom hover-shadow ripple shadow-sm">
                                 <div class="d-flex text-center justify-content-center align-items-center">
                                     <img class="" width="120" height="120"
-                                        src="{{ asset('images/logo-bg-none.png') }}" alt="images" />
+                                        src="{{ asset('images/logo-app.png') }}" alt="images" />
                                 </div>
                                 <div class="card-details">
                                     <div class="mt-4 sub-caption" style="">

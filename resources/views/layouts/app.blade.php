@@ -7,7 +7,7 @@
 
     <title>Pehjahit</title>
 
-    <link rel="shortcut icon" href="{{ asset('images/logo-bg-white.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/logo-app.png') }}" type="image/x-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
