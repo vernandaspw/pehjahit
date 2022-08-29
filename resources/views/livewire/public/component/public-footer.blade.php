@@ -32,7 +32,7 @@
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <!-- Content -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            <img width="40" height="40" src="{{ asset('images/logo-bg-none.png') }}" alt="">
+                            <img width="40" height="40" src="{{ asset('images/logo-app.png') }}" alt="">
                             <span class="ms-2">PehJahit.com</span>
                         </h6>
                         <p>
