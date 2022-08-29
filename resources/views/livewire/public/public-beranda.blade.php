@@ -242,8 +242,8 @@
                 border-radius: 100px;
             }
         </style>
-        <img src="{{ asset('images/Torus_3x_Knot_R.png') }}" width="750px" alt="bg-header"
-            class="img-header d-none d-md-block">
+        {{-- <img src="{{ asset('images/Torus_3x_Knot_R.png') }}" width="750px" alt="bg-header"
+            class="img-header d-none d-md-block"> --}}
         <div class="row mx-0" id="header">
             <div class="col-xl-6 ">
                 <div class="title">
@@ -269,8 +269,11 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="col-xl-6 my-auto">
-                <div class="gallery row p-md-4 section scrolling-wrapper flex-row flex-nowrap">
+            <div class="col-xl-6 m-auto">
+               <div class="text-center">
+                <img src="{{ asset('images/logo-pj-h.png') }}" width="300px" alt="pehjahit.com">
+               </div>
+                {{-- <div class="gallery row p-md-4 section scrolling-wrapper flex-row flex-nowrap">
                     <!-- CARD 1 -->
                     <div class="card-hotel-carousel">
                         <div class="image-placeholder">
@@ -337,8 +340,8 @@
                         </div>
                     </div>
                     <!-- END CARD 3 -->
-                </div>
-            </div> --}}
+                </div> --}}
+            </div>
         </div>
     </section>
 
