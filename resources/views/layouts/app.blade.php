@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Pehjahit</title>
+    \
+    <link rel="shortcut icon" href="{{ asset('images/logo-app.png') }}" type="image/x-icon">
 
     <link rel="shortcut icon" href="{{ asset('images/logo-app.png') }}" type="image/x-icon">
 
